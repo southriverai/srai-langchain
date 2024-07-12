@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "srai-langchain"
+version = "0.1.0"
+description = "A library for easier langchain usage"
+authors = ["Jaap Oosterbroek <jaap.oosterbroek@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/southriverai/srai-langchain"
+repository = "https://github.com/southriverai/srai-langchain"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymed = "0.8.9"
+markdownify = "0.12.1"
+srai-core = "0.13.1"
+# langchain
+langchain = "0.2.6"
+langchain-community = "0.2.6"
+langchain-core = "0.2.11"
+langchain-openai = "0.1.14"
+langchain-text-splitters = "0.2.2"
+
+pinecone_client = "4.1.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

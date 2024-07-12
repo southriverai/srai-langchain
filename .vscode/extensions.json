@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "nathanridley.autotrim",
+        "njpwerner.autodocstring",
+        "ms-python.isort",
+        "ms-python.flake8",
+        "ms-python.black-formatter",
+    ],
+    "unwantedRecommendations": [
+        "ms-python.pylint",
+    ]
+}
