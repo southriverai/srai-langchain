@@ -7,10 +7,6 @@ from srai_core.store.bytes_store_base import BytesStoreBase
 from srai_core.store.document_store_base import DocumentStoreBase
 
 
-def get_posix_timestamp():  # TODO move to core
-    return int(time.mktime(datetime.datetime.now().timetuple()))
-
-
 class SourceStore:
 
     def __init__(self, header_store: DocumentStoreBase, content_store: BytesStoreBase):
